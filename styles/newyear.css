@@ -34,7 +34,6 @@
     text-align: right;
     margin-bottom: 24px;
 
-
 }
 
 .bannar-description {
@@ -43,5 +42,124 @@
     color: #FFFFFF;
     text-align: right;
     margin-bottom: 32px;
+}
+
+/* previous-year-style */
+.previous-year {
+    display: flex;
+    align-items: center;
 
 }
+
+.sub-pre-year {
+    text-align: justify;
+    padding: 100px;
+    justify-content: end;
+
+}
+
+.previousyear-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.previousyear-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.p-sub-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+/* section-my-plan */
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+/* skill */
+.skills-content {
+    display: flex;
+    gap: 86px;
+    text-align: center;
+    padding-left: 65px;
+}
+.skill-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+   margin-top: 24px;
+   margin-bottom: 16px;
+}  
+.skill-des{
+    margin-top: 16px;
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+  }
+  .watch-style{
+    display: flex;
+    margin-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .watch {
+    align-items: center;
+    margin-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image:url(../images/watch-gradient.png);
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 150px; 
+}
+.watch-title {
+    display: flex;
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+
+   
+}
+/* future-styles */
+.future {
+    display: flex;
+    gap: 60px;
+    background: #151414;
+    color: #F8F8F8;
+    padding: 130px 230px;
+}
+.future .future-title {
+    text-align: left;
+    font-size: 45px;
+
+}
+.future input {
+    margin-bottom: 24px;
+    border: 0;
+    width: 300px;
+height: 64px;
+    
+}
+input {
+    height: 64px;
+}
+.future-des {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+.future a {
+    text-decoration: none;
+    margin: right;
+}
+
