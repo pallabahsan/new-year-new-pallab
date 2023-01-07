@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* bannar styles */
+.bannar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    background-image: url(../images/banner/banner3.png);
+    width: 1348px;
+    height: 808px;
+
+}
+
+.banner-text {
+    width: 530px;
+    padding: 30px;
+}
+
+.bannar-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-bottom: 24px;
+
+
+}
+
+.bannar-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-bottom: 32px;
+
+}
